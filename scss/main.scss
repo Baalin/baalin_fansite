@@ -1,0 +1,6 @@
+@import "config";
+
+body {
+  background-color: $black-color;
+  color: lighten($gold-color, 10);
+}
