@@ -3,3 +3,7 @@ $green-color: #2f4b26;
 $brown-color: #4e3822;
 $black-color: #363732;
 $yellow-color: #f6c95c;
+
+@mixin easeOut {
+  transition: all 0.5s ease-out;
+}
