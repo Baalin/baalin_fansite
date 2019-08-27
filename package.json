@@ -4,7 +4,7 @@
   "description": "Baalin Fan Site",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o docs/css/ --recursive"
   },
   "author": "Baalin",
   "license": "MIT",
