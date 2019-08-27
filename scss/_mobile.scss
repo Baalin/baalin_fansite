@@ -1,0 +1,38 @@
+@include mediaSm {
+  .text {
+    width: 200px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    &-big {
+      font-size: 21px;
+      margin-left: -10px;
+      margin-right: -10px;
+      margin-bottom: 20px;
+    }
+    &-citizen {
+      font-size: 10px;
+    }
+  }
+
+  .contact {
+    width: 200px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .progress {
+    width: 200px;
+    padding-top: 12px;
+    padding-bottom: 22px;
+  }
+}
+
+@include mediaMd {
+}
+
+@include mediaLg {
+}
+
+@include mediaXl {
+}
